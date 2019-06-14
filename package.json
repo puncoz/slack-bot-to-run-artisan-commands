@@ -1,0 +1,23 @@
+{
+  "name": "rossbot",
+  "version": "1.0.0",
+  "description": "Manage your server straight from Slack",
+  "main": "Server.js",
+  "directories": {
+    "scripts": "scripts"
+  },
+  "author": {
+    "name": "Josh Barker",
+    "email": "meow@fish.cat",
+    "url": "https://joshbarker.me"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "npm": "^6.4.1",
+    "slackbots": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "commands": [
+        {
+            "trigger": "deploy",
+            "command": "cd /var/www/html && git pull && php artisan deploy --env=development",
+            "description": "Deploys Application"
+        },
+        {
+            "trigger": "show stats",
+            "command": "cd /var/www/html && php artisan stats",
+            "description": "Displays Application statistics"
+        },
+        {
+            "trigger": "say hello",
+            "command": "Uhm, hello there!",
+            "description": "Ross says hello"
+        }
+    ]
+}
